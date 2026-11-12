@@ -1,0 +1,14 @@
+# Credentials and saved logins - never commit these
+.env
+*.env
+.smugmug_tokens.json
+
+# Script output (album names can identify clients)
+smugmug_usage_by_album*.csv
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
